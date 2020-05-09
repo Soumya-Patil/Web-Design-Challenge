@@ -1,22 +1,102 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+  <title>Comparisions_Page</title>
+</head>
+
+<body>
+
+  <!--Comparisions_Page Nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand nav-link active text-light bg-info" href=""> Lattitude </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav  ml-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle  active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/Web-Design-Challenge/Visualizations/max_temp.html"> Max Temprature </a>
+            <a class="dropdown-item" href="/Web-Design-Challenge/Visualizations/humidity.html"> Humidity </a>
+            <a class="dropdown-item" href="/Web-Design-Challenge/Visualizations/Cloudiness.html"> Cloudiness </a>
+            <a class="dropdown-item" href="/Web-Design-Challenge/Visualizations/windspeed.html"> Wind Speed </a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons_page.html"> Comparision <span class="sr-only">(current)</span> </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="data_page.html"> Data </a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Comparisions Page , figure Plots -->
+  <div class='row bg-white'>
+    <div class='col ml-auto '>
+      <h1 class="text-info">Comparison: Latitude vs X</h1>
+      <hr>
+      <p>Click any plot to get an in-depth analysis.</p>
+
+      <div class='row'>
+
+        <div class='col'>
+          <a href="visualizations/max_temperature.html">
+            <h3 class="text-info">vs. Max Temprature</h3>
+            <img class="mr-3 img-fluid" src="resources/assets/images/Fig1.png" alt="A generic square placeholder image" style="width: auto; height: 250px;">
+          </a>
+        </div>
+
+        <div class='col'>
+          <a href="visualizations/humidity.html">
+            <h3 class="text-info">vs. Humidity</h3>
+            <img class="mr-3 img-fluid" src="resources/assets/images/Fig2.png" alt="A generic square placeholder image" style="width: auto; height: 250px;">
+          </a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col'>
+          <a href="visualizations/Cloudiness.html">
+            <h3 class="text-info">vs. Cloudiness</h3>
+            <img class="mr-3 img-fluid" src="resources/assets/images/Fig3.png" alt="A generic square placeholder image" style="width: auto; height: 250px;">
+          </a>
+        </div>
+        <div class='col'>
+          <a href="visualizations/wind_speed.html">
+            <h3 class="text-info">vs. Wind Speed</h3>
+            <img class="mr-3 img-fluid" src="resources/assets/images/Fig4.png" alt="A generic square placeholder image" style="width: auto; height: 250px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- comparisons_page copyright footer -->
+  <br>
+  <div class='row bg-dark border-top border-info' style=" border-width:10px !important;">
+    <div class='col'>
+      <footer class="footer ">
+        <div class="container text-white text-center ">
+          <span class=''>&copy; Soumya Patil 2020 </span>
+        </div>
+      </footer>
+    </div>
+  </div>
+  </div>
