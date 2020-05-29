@@ -1,4 +1,4 @@
-#### Web-Design-Challenge
+# Web-Design-Challenge
 
 ##### The Website is Published here : https://soumya-patil.github.io/Web-Design-Challenge/
 
