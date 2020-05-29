@@ -1,4 +1,7 @@
-# Web-Design-Challenge
+#### Web-Design-Challenge
+
+##### The Website is Published here : https://soumya-patil.github.io/Web-Design-Challenge/
+
 Assignment asks for 7 pages in total:
 
 1 landing page : Available inside WebVisualizations folder as landing_page.html
